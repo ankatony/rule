@@ -48,6 +48,10 @@
     "rules": [
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
       {"inbound": "dns-in", "action": "hijack-dns"},
+      {"domain_suffix": "auth.xiaoya.pro", "outbound": "🎯 全球直连"}, 
+      {"domain_suffix": "emby-data.xn", "outbound": "🎯 全球直连"}, 
+      {"domain_suffix": "api.letsencrypt.org", "outbound": "🎯 全球直连"}, 
+      {"domain_suffix": "ys7.com", "outbound": "🎯 全球直连"},       
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
